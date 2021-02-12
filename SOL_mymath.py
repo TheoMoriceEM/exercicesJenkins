@@ -1,3 +1,5 @@
+from __future__ import division
+
 def add(x,y):
     """Fonction d'addition, permet d'ajouter 2 valeurs.
 
@@ -68,4 +70,4 @@ def divide(x,y):
         if y == 0:
             raise ValueError('division par O impossible')
         else:
-            return x//y
+            return x/y

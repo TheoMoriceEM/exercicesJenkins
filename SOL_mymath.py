@@ -68,4 +68,4 @@ def divide(x,y):
         if y == 0:
             raise ValueError('division par O impossible')
         else:
-            return x/y
+            return x//y

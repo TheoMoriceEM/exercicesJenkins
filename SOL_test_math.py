@@ -1,6 +1,6 @@
 import unittest
 
-import mymath
+import SOL_mymath
 
 
 

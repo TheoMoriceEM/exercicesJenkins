@@ -19,17 +19,17 @@ class Personne:
 class CompteBancaire:
 
     def __init__(self,nom='Dupont'):
-        """ création du constructeur de la classe avec les valeurs par defaut 'Dupont' et 0 """
+        """ creation du constructeur de la classe avec les valeurs par defaut 'Dupont' et 0 """
         self.nom=nom
         self.solde=0
 
     def depot(self,somme):
-        """ ajout d'une somme à l'attribut solde """
+        """ ajout d'une somme a l'attribut solde """
 
         self.solde+=somme
 
     def retrait(self,somme):
-        """ retrait d'une somme à l'attribut solde """
+        """ retrait d'une somme a l'attribut solde """
 
         self.solde-=somme
 

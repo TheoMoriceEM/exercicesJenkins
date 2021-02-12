@@ -7,7 +7,7 @@ class TestSum(unittest.TestCase):
 
     def test_creation_compte(self):
         """
-        Vérifie que la création d'un compte fonctionne
+        Verifie que la creation d'un compte fonctionne
         """
         personne = Personne('Jean','Jacques')
         personne.creer_compte_bancaire()
